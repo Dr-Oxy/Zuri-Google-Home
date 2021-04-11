@@ -125,14 +125,17 @@ footer a {
 }
 
 .footer-links {
-  padding: 20px 30px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
 }
 
-.links li {
+.links {
   display: flex;
-  margin-right: 10px;
+}
+
+.links li {
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -149,9 +152,13 @@ footer a {
     width: 80%;
   }
 
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
   .links li {
     margin-right: 0;
-    flex-direction: column;
   }
 
   .footer-links p {
@@ -168,6 +175,15 @@ footer a {
 
   input[type="text"] {
     width: 80%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links li {
+    margin-right: 0;
   }
 }
 
