@@ -119,14 +119,15 @@ footer a {
   text-decoration: none;
   color: #6b6b6b;
 }
+
 .footer-bottom {
   padding: 15px 0;
 }
 
 .footer-links {
   padding: 20px 30px;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
 }
 
 .links li {
@@ -148,8 +149,9 @@ footer a {
     width: 80%;
   }
 
-  footer li {
+  .links li {
     margin-right: 0;
+    flex-direction: column;
   }
 
   .footer-links p {
