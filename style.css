@@ -113,29 +113,25 @@ footer .country {
 
 footer li {
   list-style: none;
-  margin-right: 20px;
 }
 
 footer a {
   text-decoration: none;
   color: #6b6b6b;
 }
-
 .footer-bottom {
-  padding: 15px;
-}
-
-.footer-bottom :first-child {
-  text-align: center;
+  padding: 10px 0;
 }
 
 .footer-links {
+  padding: 20px 30px;
+  justify-content: space-between;
   display: flex;
-  justify-content: space-around;
 }
 
-.links {
+.links li {
   display: flex;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -156,21 +152,9 @@ footer a {
     margin-right: 0;
   }
 
-  .footer-bottom p {
-    margin-bottom: 10px;
-  }
-
-  .footer-links {
-    align-items: center;
-  }
-
-  .links {
-    flex-direction: column;
-    text-align: left;
-  }
-
-  .links li {
-    margin-bottom: 10px;
+  .footer-links p {
+    align-self: flex-end;
+    text-align: center;
   }
 }
 
